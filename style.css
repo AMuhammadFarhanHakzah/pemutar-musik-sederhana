@@ -1,0 +1,159 @@
+:root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --color-btn-muted : #646C80;
+    --background-btn-muted: #374054;
+    --border-btn: #474e60;
+    --primary-color: #3CEE7F;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #2C3446;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    display: flex;
+    height: 100svh;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.progress {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    color: white;
+}
+
+.progress .bar {
+    --progress-length: 0;
+    width: 16rem;
+    height: 4px;
+    display: block;
+    background-color: var(--border-btn);
+    position: relative;
+}
+
+.progress .bar::after{
+    content: "";
+    position: absolute;
+    width: var(--progress-length);
+    height: 100%;
+    background-color: var(--primary-color);
+}
+
+.playlist {
+    margin-top: 6rem;
+    width: 24rem;
+    background-color: red;
+    max-height: 30rem;                      
+    background-color: var(--background-btn-muted);
+}
+
+.playlist li{
+    position: relative;
+}
+
+.playlist li.active::before {
+    content: '';
+    width: 4px;;
+    height: 100%;
+    background: var(--primary-color);
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+}
+
+.playlist ul {
+    list-style: none;
+    padding: 0;
+}
+
+.playlist ul li {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border-btn);
+    color: white;
+    cursor: pointer;
+}
+
+.album {
+    width: 20rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 200px;
+}
+
+.berputar {
+    animation: berputar 5s infinite linear;
+}
+
+.pause {
+    animation-play-state: paused;
+}
+
+@keyframes berputar {
+    from {
+        transform: rotate(0deg)
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.album img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.info {
+    color: white;
+    text-align: center;
+}
+
+.action {
+    display: flex;
+    gap: 1rem;
+}
+
+.action button {
+    color: var(--color-btn-muted);
+    background-color: var(--background-btn-muted);
+    width: 4rem;
+    aspect-ratio: 1/1;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+    border: 4px solid var(--border-btn);
+    cursor: pointer;
+}
+
+.action button:has( > i#play_icon) {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.action button:active {
+    scale: 0.9;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+

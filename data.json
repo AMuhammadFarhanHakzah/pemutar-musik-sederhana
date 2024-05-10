@@ -1,0 +1,39 @@
+{
+    "data" : [
+        {
+            "id" : "1",
+            "album_cover" : "https://plus.unsplash.com/premium_photo-1714115034964-16b20994142a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8",
+            "title" : "For Her Chill Upbeat Summer Travel",
+            "artist" : "Liderc",
+            "url" : "/music/ethereal-vistas-191254.mp3"
+        },
+        {
+            "id" : "2",
+            "album_cover" : "https://images.unsplash.com/photo-1714508862788-44e45c4315d0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8",
+            "title" : "Groovy Ambient Funk",
+            "artist" : "Moodmode",
+            "url" : "/music/for-her-chill-upbeat-summel-travel-vlog-and-ig-music-royalty-free-use-202298.mp3"
+        },
+        {
+            "id" : "3",
+            "album_cover" : "https://images.unsplash.com/photo-1714548529006-aea2b7530e6e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8",
+            "title" : "Movement",
+            "artist" : "SoulProdMusic",
+            "url" : "/music/groovy-ambient-funk-201745.mp3"
+        },
+        {
+            "id" : "4",
+            "album_cover" : "https://images.unsplash.com/photo-1714399727269-7883d5d66da2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8",
+            "title" : "Perfect Beauty",
+            "artist" : "Good_B_Music",
+            "url" : "/music/movement-200697.mp3"
+        },
+        {
+            "id" : "5",
+            "album_cover" : "https://images.unsplash.com/photo-1686715612818-11ab5b79770b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8",
+            "title" : "Coverless Book (lofi)",
+            "artist" : "MYAUDIOVISION",
+            "url" : "/music/solitude-dark-ambient-electronic-197737.mp3"
+        }
+    ]
+}
